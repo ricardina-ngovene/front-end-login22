@@ -3,6 +3,7 @@ import { Home } from "./pages/home";
 import Signup from "./pages/signup";
 
 import { Login } from "./pages/login";
+import Footer from "./components/footer";
 
     
 
@@ -15,10 +16,14 @@ export const route = createBrowserRouter([
       path: "/login",
      element:<Login/>
     },
+    
     {
       path: "/signup",
       element: <Signup/>,
     },
-   
+    {
+      path: "/footer",
+      element: <Footer/>,
+    },
   ]);
   

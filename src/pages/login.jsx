@@ -1,5 +1,6 @@
 import { useForm } from 'react-hook-form';
 import { Header } from '../components/header'
+import Footer from '../components/footer';
 
 
 export const Login = () => {
@@ -56,6 +57,7 @@ export const Login = () => {
   </div>
         </form>
         </div>
+        <Footer/>
      </>
   );
 

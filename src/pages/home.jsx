@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import { Header } from "../components/header";
 
 export const Home = () => {
@@ -8,7 +9,7 @@ export const Home = () => {
           Pagina principal
         </h1>
     
-        
+        <Footer />
           </>
         );
       };
